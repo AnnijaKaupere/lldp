@@ -1,0 +1,65 @@
+
+
+----------------------IP_ADDRESS: 10.70.100.51----------------------
+
+-----lldp neighbors info-----
+
+System capability legend:
+B - Bridge; R - Router; W - Wlan Access Point; T - telephone;
+D - DOCSIS Cable Device; H - Host; r - Repeater;
+TP - Two Ports MAC Relay; S - S-VLAN; C - C-VLAN; O - Other
+
+  Port        Device ID        Port ID       System Name    Capabilities  TTL  
+--------- ----------------- ------------- ----------------- ------------ ----- 
+gi1/0/8   e4:5a:d4:2a:09:40   gi1/0/35    eltex_local_1.350     B, R      113  
+                                                  0                            
+----------------------
+
+-----lldp neighbors1/0/8 info-----
+Device ID: e4:5a:d4:2a:09:40
+Port ID: gi1/0/35
+Capabilities: Bridge, Router
+System Name: eltex_local_1.3500
+System description: MES2348B 52-port 1G/10G Managed Switch, Software version: 4.0.19
+Port description: --- to test 10.70.100.51 ---
+Management Address: 10.70.100.38
+Time To Live: 112
+
+
+802.3 EEE:
+
+   Remote Tx:         17 uSec
+   Remote Rx:         17 uSec
+   Remote Tx Echo:    17 uSec
+   Remote Rx Echo:    17 uSec
+
+
+802.1 PVID: None
+802.1 PPVID: 
+802.1 VLAN:
+802.1 Protocol: 
+
+
+
+
+----------------------IP_ADDRESS: 10.70.100.38----------------------
+
+-----lldp neighbors info-----
+
+System capability legend:
+B - Bridge; R - Router; W - Wlan Access Point; T - telephone;
+D - DOCSIS Cable Device; H - Host; r - Repeater;
+TP - Two Ports MAC Relay; S - S-VLAN; C - C-VLAN; O - Other
+
+  Port        Device ID        Port ID       System Name    Capabilities  TTL  
+--------- ----------------- ------------- ----------------- ------------ ----- 
+gi1/0/35  e8:28:c1:bf:8e:c0    gi1/0/8    eltex_local_1.461     B, R      92   
+                                                  8                            
+te1/0/1   e8:28:c1:bf:a2:c0    gi1/0/1     local_core.4617      B, R      97   
+----------------------
+
+-----lldp neighbors1/0/8 info-----
+
+----------------------IP_ADDRESS: 10.70.100.43----------------------
+Device Unreachable/SSH not enabled
+
